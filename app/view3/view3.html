@@ -1,5 +1,263 @@
-<p>This is the partial for view 3.</p>
-<p>
-  Showing of 'interpolate' filter:
-  {{ 'Current version is v%VERSION%.' | interpolate }}
-</p>
+<div class="tint-overlay" style="opacity: 0.3;"></div>
+<div class="wrapper clearfix">
+  <div class="description-wrapper clearfix">
+    <div class="content description clearfix"><h2 class="ng-pristine ng-untouched ng-valid"
+                                                  editable-text-basic="" ng-model="section.title"
+                                                  placeholder="Experience">Experience</h2>
+      <p class="ng-pristine ng-untouched ng-valid" editable-text-basic="" ng-model="section.text"
+         placeholder="Explore my professional history and get to know the companies I worked at and the roles and responsibilities I've been assigned.">
+        Explore my professional history and get to know the companies I worked at and the roles and
+        responsibilities I've been assigned.</p></div>
+  </div>
+  <div class="main-wrapper clearfix">
+    <div class="main-aligner">
+      <div class="main-content">
+        <slider class="list content slider" data-max-items="1">
+          <slider-content>
+            <slider-content-wrapper>
+              <slider-item
+                      class="listing-wrapper clearfix ng-pristine ng-untouched ng-valid ng-isolate-scope"
+                      editable-list-item="" ng-model="item" section="section">
+                <div class="listing clearfix">
+                  <div class="image-wrapper">
+                    <div class="image">
+                      <editable-image class="ng-pristine ng-untouched ng-valid"
+                                      ng-model="item.company.logoUrl"
+                                      placeholder="img/experience.png">
+                        <img class="placeholder"
+                             src="img/experience.png"/>
+                      </editable-image>
+                    </div>
+                  </div>
+                  <div class="text-wrapper">
+                    <div class="text"><h4 class="time"><span
+                            class="ng-pristine ng-untouched ng-valid" editable-text=""
+                            ng-model="item.start.year" placeholder="Start"
+                            render-placeholder="">2014</span> – <span
+                            class="ng-pristine ng-untouched ng-valid" editable-text=""
+                            ng-model="item.end.year" placeholder="Current"
+                            render-placeholder="">2015</span></h4>
+                      <h3 class="company"><b class="ng-pristine ng-untouched ng-valid"
+                                             editable-text=""
+                                             ng-model="item.company.name"
+                                             placeholder="Company">Haseb System
+                        Consultancy Co</b></h3>
+                      <h3 class="role"><span
+                              class="small ng-pristine ng-untouched ng-valid"
+                              editable-text="" ng-model="item.title"
+                              placeholder="Your title or role">IT Professional</span>
+                      </h3>
+                      <p class="experience-description"><span
+                              class="small ng-pristine ng-untouched ng-valid"
+                              editable-text="" ng-model="item.summary"
+                              placeholder="Describe your experience at this company during your job. Say what you accomplished, what you're proud of and what you've been known for there.">IT Support, Web Developer, Network Manager</span>
+                      </p></div>
+                  </div>
+                </div>
+              </slider-item>
+              <slider-item
+                      class="listing-wrapper clearfix ng-pristine ng-untouched ng-valid ng-isolate-scope"
+                      editable-list-item="" ng-model="item" section="section">
+                <div class="listing clearfix">
+                  <div class="image-wrapper">
+                    <div class="image">
+                      <editable-image class="ng-pristine ng-untouched ng-valid"
+                                      ng-model="item.company.logoUrl"
+                                      placeholder="img/experience.png">
+                        <img class="placeholder"
+                             src="img/experience.png"/>
+                      </editable-image>
+                    </div>
+                  </div>
+                  <div class="text-wrapper">
+                    <div class="text"><h4 class="time"><span
+                            class="ng-pristine ng-untouched ng-valid" editable-text=""
+                            ng-model="item.start.year" placeholder="Start"
+                            render-placeholder="">2005</span> – <span
+                            class="ng-pristine ng-untouched ng-valid" editable-text=""
+                            ng-model="item.end.year" placeholder="Current"
+                            render-placeholder="">Current</span></h4>
+                      <h3 class="company"><b class="ng-pristine ng-untouched ng-valid"
+                                             editable-text=""
+                                             ng-model="item.company.name"
+                                             placeholder="Company">Omid's Co.</b></h3>
+                      <h3 class="role"><span
+                              class="small ng-pristine ng-untouched ng-valid"
+                              editable-text="" ng-model="item.title"
+                              placeholder="Your title or role">CEO</span></h3>
+                      <p class="experience-description"><span
+                              class="small ng-pristine ng-untouched ng-valid"
+                              editable-text="" ng-model="item.summary"
+                              placeholder="Describe your experience at this company during your job. Say what you accomplished, what you're proud of and what you've been known for there.">*Setup and Maintenance Personal and Small Business Websites. *Technical Support of Windows based Computers. *Malware Research. *Software QA.</span>
+                      </p></div>
+                  </div>
+                </div>
+              </slider-item>
+              <slider-item
+                      class="listing-wrapper clearfix ng-pristine ng-untouched ng-valid ng-isolate-scope"
+                      editable-list-item="" ng-model="item" section="section">
+                <div class="listing clearfix">
+                  <div class="image-wrapper">
+                    <div class="image">
+                      <editable-image class="ng-pristine ng-untouched ng-valid"
+                                      ng-model="item.company.logoUrl"
+                                      placeholder="img/experience.png">
+                        <img class="placeholder"
+                             src="img/experience.png"/>
+                      </editable-image>
+                    </div>
+                  </div>
+                  <div class="text-wrapper">
+                    <div class="text"><h4 class="time"><span
+                            class="ng-pristine ng-untouched ng-valid" editable-text=""
+                            ng-model="item.start.year" placeholder="Start"
+                            render-placeholder="">2014</span> – <span
+                            class="ng-pristine ng-untouched ng-valid" editable-text=""
+                            ng-model="item.end.year" placeholder="Current"
+                            render-placeholder="">2015</span></h4>
+                      <h3 class="company"><b class="ng-pristine ng-untouched ng-valid"
+                                             editable-text=""
+                                             ng-model="item.company.name"
+                                             placeholder="Company">Rayzan
+                        International Conference Centre</b></h3>
+                      <h3 class="role"><span
+                              class="small ng-pristine ng-untouched ng-valid"
+                              editable-text="" ng-model="item.title"
+                              placeholder="Your title or role">Assistant</span></h3>
+                      <p class="experience-description"><span
+                              class="small ng-pristine ng-untouched ng-valid"
+                              editable-text="" ng-model="item.summary"
+                              placeholder="Describe your experience at this company during your job. Say what you accomplished, what you're proud of and what you've been known for there."></span>
+                      </p></div>
+                  </div>
+                </div>
+              </slider-item>
+              <slider-item
+                      class="listing-wrapper clearfix ng-pristine ng-untouched ng-valid ng-isolate-scope"
+                      editable-list-item="" ng-model="item" section="section">
+                <div class="listing clearfix">
+                  <div class="image-wrapper">
+                    <div class="image">
+                      <editable-image class="ng-pristine ng-untouched ng-valid"
+                                      ng-model="item.company.logoUrl"
+                                      placeholder="img/experience.png">
+                        <img class="placeholder"
+                             src="img/experience.png"/>
+                      </editable-image>
+                    </div>
+                  </div>
+                  <div class="text-wrapper">
+                    <div class="text"><h4 class="time"><span
+                            class="ng-pristine ng-untouched ng-valid" editable-text=""
+                            ng-model="item.start.year" placeholder="Start"
+                            render-placeholder="">2011</span> – <span
+                            class="ng-pristine ng-untouched ng-valid" editable-text=""
+                            ng-model="item.end.year" placeholder="Current"
+                            render-placeholder="">2013</span></h4>
+                      <h3 class="company"><b class="ng-pristine ng-untouched ng-valid"
+                                             editable-text=""
+                                             ng-model="item.company.name"
+                                             placeholder="Company">Industrial Utilties
+                        (Machining)</b></h3>
+                      <h3 class="role"><span
+                              class="small ng-pristine ng-untouched ng-valid"
+                              editable-text="" ng-model="item.title"
+                              placeholder="Your title or role">Reseller</span></h3>
+                      <p class="experience-description"><span
+                              class="small ng-pristine ng-untouched ng-valid"
+                              editable-text="" ng-model="item.summary"
+                              placeholder="Describe your experience at this company during your job. Say what you accomplished, what you're proud of and what you've been known for there."></span>
+                      </p></div>
+                  </div>
+                </div>
+              </slider-item>
+              <slider-item
+                      class="listing-wrapper clearfix ng-pristine ng-untouched ng-valid ng-isolate-scope"
+                      editable-list-item="" ng-model="item" section="section">
+                <div class="listing clearfix">
+                  <div class="image-wrapper">
+                    <div class="image">
+                      <editable-image class="ng-pristine ng-untouched ng-valid"
+                                      ng-model="item.company.logoUrl"
+                                      placeholder="img/experience.png">
+                        <img class="placeholder"
+                             src="img/experience.png"/>
+                      </editable-image>
+                    </div>
+                  </div>
+                  <div class="text-wrapper">
+                    <div class="text"><h4 class="time"><span
+                            class="ng-pristine ng-untouched ng-valid" editable-text=""
+                            ng-model="item.start.year" placeholder="Start"
+                            render-placeholder="">2007</span> – <span
+                            class="ng-pristine ng-untouched ng-valid" editable-text=""
+                            ng-model="item.end.year" placeholder="Current"
+                            render-placeholder="">2008</span></h4>
+                      <h3 class="company"><b class="ng-pristine ng-untouched ng-valid"
+                                             editable-text=""
+                                             ng-model="item.company.name"
+                                             placeholder="Company">IRIB (Islamic
+                        Republic of Iran Broadcasting)</b></h3>
+                      <h3 class="role"><span
+                              class="small ng-pristine ng-untouched ng-valid"
+                              editable-text="" ng-model="item.title"
+                              placeholder="Your title or role">IT Department</span>
+                      </h3>
+                      <p class="experience-description"><span
+                              class="small ng-pristine ng-untouched ng-valid"
+                              editable-text="" ng-model="item.summary"
+                              placeholder="Describe your experience at this company during your job. Say what you accomplished, what you're proud of and what you've been known for there.">· Web Development · Maintenance of Computer's Software and Hardware.</span>
+                      </p></div>
+                  </div>
+                </div>
+              </slider-item>
+              <slider-item
+                      class="listing-wrapper clearfix ng-pristine ng-untouched ng-valid ng-isolate-scope"
+                      editable-list-item="" ng-model="item" section="section">
+                <div class="listing clearfix">
+                  <div class="image-wrapper">
+                    <div class="image">
+                      <editable-image class="ng-pristine ng-untouched ng-valid"
+                                      ng-model="item.company.logoUrl"
+                                      placeholder="img/experience.png">
+                        <img class="placeholder"
+                             src="img/experience.png"/>
+                      </editable-image>
+                    </div>
+                  </div>
+                  <div class="text-wrapper">
+                    <div class="text"><h4 class="time"><span
+                            class="ng-pristine ng-untouched ng-valid" editable-text=""
+                            ng-model="item.start.year" placeholder="Start"
+                            render-placeholder="">2015</span> – <span
+                            class="ng-pristine ng-untouched ng-valid" editable-text=""
+                            ng-model="item.end.year" placeholder="Current"
+                            render-placeholder="">2015</span></h4>
+                      <h3 class="company"><b class="ng-pristine ng-untouched ng-valid"
+                                             editable-text=""
+                                             ng-model="item.company.name"
+                                             placeholder="Company">ModernPal</b></h3>
+                      <h3 class="role"><span
+                              class="small ng-pristine ng-untouched ng-valid"
+                              editable-text="" ng-model="item.title"
+                              placeholder="Your title or role">Front-end Web Developer</span>
+                      </h3>
+                      <p class="experience-description"><span
+                              class="small ng-pristine ng-untouched ng-valid"
+                              editable-text="" ng-model="item.summary"
+                              placeholder="Describe your experience at this company during your job. Say what you accomplished, what you're proud of and what you've been known for there.">Front-end Web Developer, Single-Page Web Applications using AngularJS and Bootstrap</span>
+                      </p></div>
+                  </div>
+                </div>
+              </slider-item>
+            </slider-content-wrapper>
+          </slider-content>
+          <div slider-buttons="">
+            <button class="slick-prev" slider-prev="">Previous</button>
+            <button class="slick-next" slider-next="">Next</button>
+          </div>
+        </slider>
+      </div>
+    </div>
+  </div>
+</div>

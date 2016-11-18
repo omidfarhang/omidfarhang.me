@@ -1,5 +1,191 @@
-<p>This is the partial for view 7.</p>
-<p>
-  Showing of 'interpolate' filter:
-  {{ 'Current version is v%VERSION%.' | interpolate }}
-</p>
+<div class="tint-overlay" style="opacity: 0.3;"></div>
+<div class="wrapper clearfix">
+  <div class="description-wrapper clearfix">
+    <div class="content description clearfix"><h2 class="ng-pristine ng-untouched ng-valid"
+                                                  editable-text-basic="" ng-model="section.title"
+                                                  placeholder="Gallery">Gallery</h2>
+      <p class="ng-pristine ng-untouched ng-valid" editable-text-basic="" ng-model="section.text"
+         placeholder="See where I've been mentioned and where my hard work has been featured, celebrated and promoted.">
+        See where I've been mentioned and where my hard work has been featured, celebrated and
+        promoted.</p></div>
+  </div>
+  <div class="main-wrapper clearfix">
+    <div class="main-aligner">
+      <div class="main-content">
+        <slider class="slider list content multiple-listings" data-max-items="1">
+          <slider-content>
+            <slider-content-wrapper brndm-modal-toggle-group="" class="">
+              <slider-item class="list slider clearfix">
+                <div brndm-modal-toggle=""
+                     class="listing-wrapper clearfix ng-pristine ng-untouched ng-valid ng-isolate-scope"
+                     editable-list-item=""
+                     ng-model="section.values[$parent.$index + $index]" section="section">
+                  <div class="listing clearfix">
+                    <div class="image-wrapper">
+                      <editable-image class="image ng-pristine ng-untouched ng-valid"
+                                      ng-model="section.values[$parent.$index + $index].url"
+                                      placeholder="img/gallery.png"
+                                      readonly=""><img
+                              src="img/10731829_594000750704564_44228122_n.jpg"/>
+                      </editable-image>
+                    </div>
+                    <div class="text-wrapper">
+                      <div class="text"><h3
+                              class="title ng-pristine ng-untouched ng-valid"
+                              editable-text=""
+                              ng-model="section.values[$parent.$index + $index].title"
+                              placeholder="Title" readonly="">Together With Radan and
+                        Solouki</h3></div>
+                    </div>
+                  </div>
+                </div>
+                <div brndm-modal-toggle=""
+                     class="listing-wrapper clearfix ng-pristine ng-untouched ng-valid ng-isolate-scope"
+                     editable-list-item=""
+                     ng-model="section.values[$parent.$index + $index]" section="section">
+                  <div class="listing clearfix">
+                    <div class="image-wrapper">
+                      <editable-image class="image ng-pristine ng-untouched ng-valid"
+                                      ng-model="section.values[$parent.$index + $index].url"
+                                      placeholder="img/gallery.png"
+                                      readonly=""><img
+                              src="img/10729275_490717471031260_537946660_n.jpg"/>
+                      </editable-image>
+                    </div>
+                    <div class="text-wrapper">
+                      <div class="text"><h3
+                              class="title ng-pristine ng-untouched ng-valid"
+                              editable-text=""
+                              ng-model="section.values[$parent.$index + $index].title"
+                              placeholder="Title" readonly="">With Radan</h3></div>
+                    </div>
+                  </div>
+                </div>
+                <div brndm-modal-toggle=""
+                     class="listing-wrapper clearfix ng-pristine ng-untouched ng-valid ng-isolate-scope"
+                     editable-list-item=""
+                     ng-model="section.values[$parent.$index + $index]" section="section">
+                  <div class="listing clearfix">
+                    <div class="image-wrapper">
+                      <editable-image class="image ng-pristine ng-untouched ng-valid"
+                                      ng-model="section.values[$parent.$index + $index].url"
+                                      placeholder="img/gallery.png"
+                                      readonly=""><img
+                              src="img/10616887_1445961889019770_2084792950_n.jpg"/>
+                      </editable-image>
+                    </div>
+                    <div class="text-wrapper">
+                      <div class="text"><h3
+                              class="title ng-pristine ng-untouched ng-valid"
+                              editable-text=""
+                              ng-model="section.values[$parent.$index + $index].title"
+                              placeholder="Title" readonly="">Kristjan Hauksson</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div brndm-modal-toggle=""
+                     class="listing-wrapper clearfix ng-pristine ng-untouched ng-valid ng-isolate-scope"
+                     editable-list-item=""
+                     ng-model="section.values[$parent.$index + $index]" section="section">
+                  <div class="listing clearfix">
+                    <div class="image-wrapper">
+                      <editable-image class="image ng-pristine ng-untouched ng-valid"
+                                      ng-model="section.values[$parent.$index + $index].url"
+                                      placeholder="img/gallery.png"
+                                      readonly=""><img
+                              src="img/10544272_713631065353438_285423699_n.jpg"/>
+                      </editable-image>
+                    </div>
+                    <div class="text-wrapper">
+                      <div class="text"><h3
+                              class="title ng-pristine ng-untouched ng-valid"
+                              editable-text=""
+                              ng-model="section.values[$parent.$index + $index].title"
+                              placeholder="Title" readonly="">Jose Truchado</h3></div>
+                    </div>
+                  </div>
+                </div>
+                <div brndm-modal-toggle=""
+                     class="listing-wrapper clearfix ng-pristine ng-untouched ng-valid ng-isolate-scope"
+                     editable-list-item=""
+                     ng-model="section.values[$parent.$index + $index]" section="section">
+                  <div class="listing clearfix">
+                    <div class="image-wrapper">
+                      <editable-image class="image ng-pristine ng-untouched ng-valid"
+                                      ng-model="section.values[$parent.$index + $index].url"
+                                      placeholder="img/gallery.png"
+                                      readonly=""><img
+                              src="img/10502548_1471285729776114_1508355608_n.jpg"/>
+                      </editable-image>
+                    </div>
+                    <div class="text-wrapper">
+                      <div class="text"><h3
+                              class="title ng-pristine ng-untouched ng-valid"
+                              editable-text=""
+                              ng-model="section.values[$parent.$index + $index].title"
+                              placeholder="Title" readonly="">Nima Shahrokhshaahi,
+                        Mehrdad Minavand</h3></div>
+                    </div>
+                  </div>
+                </div>
+                <div brndm-modal-toggle=""
+                     class="listing-wrapper clearfix ng-pristine ng-untouched ng-valid ng-isolate-scope"
+                     editable-list-item=""
+                     ng-model="section.values[$parent.$index + $index]" section="section">
+                  <div class="listing clearfix">
+                    <div class="image-wrapper">
+                      <editable-image class="image ng-pristine ng-untouched ng-valid"
+                                      ng-model="section.values[$parent.$index + $index].url"
+                                      placeholder="img/gallery.png"
+                                      readonly=""><img
+                              src="img/1662625_275121195978180_787753057_n.jpg"/>
+                      </editable-image>
+                    </div>
+                    <div class="text-wrapper">
+                      <div class="text"><h3
+                              class="title ng-pristine ng-untouched ng-valid"
+                              editable-text=""
+                              ng-model="section.values[$parent.$index + $index].title"
+                              placeholder="Title" readonly="">General Manager of
+                        Casio</h3></div>
+                    </div>
+                  </div>
+                </div>
+              </slider-item>
+              <slider-item class="list slider clearfix">
+                <div brndm-modal-toggle=""
+                     class="listing-wrapper clearfix ng-pristine ng-untouched ng-valid ng-isolate-scope"
+                     editable-list-item=""
+                     ng-model="section.values[$parent.$index + $index]" section="section">
+                  <div class="listing clearfix">
+                    <div class="image-wrapper">
+                      <editable-image class="image ng-pristine ng-untouched ng-valid"
+                                      ng-model="section.values[$parent.$index + $index].url"
+                                      placeholder="img/gallery.png"
+                                      readonly=""><img
+                              src="img/924274_348575121947685_1774171381_n.jpg"/>
+                      </editable-image>
+                    </div>
+                    <div class="text-wrapper">
+                      <div class="text"><h3
+                              class="title ng-pristine ng-untouched ng-valid"
+                              editable-text=""
+                              ng-model="section.values[$parent.$index + $index].title"
+                              placeholder="Title" readonly="">Amin Tarokh and Andranik
+                        Teymourian</h3></div>
+                    </div>
+                  </div>
+                </div>
+              </slider-item>
+            </slider-content-wrapper>
+          </slider-content>
+          <div slider-buttons="">
+            <button class="slick-prev" slider-prev="">Previous</button>
+            <button class="slick-next" slider-next="">Next</button>
+          </div>
+        </slider>
+      </div>
+    </div>
+  </div>
+</div>

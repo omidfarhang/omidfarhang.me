@@ -1,5 +1,114 @@
-<p>This is the partial for view 9.</p>
-<p>
-  Showing of 'interpolate' filter:
-  {{ 'Current version is v%VERSION%.' | interpolate }}
-</p>
+<div class="tint-overlay" style="opacity: 0.7;"></div>
+<div class="wrapper clearfix">
+  <div class="description-wrapper clearfix">
+    <div class="content description clearfix">
+      <div class="content description clearfix"><h2 class="ng-pristine ng-untouched ng-valid"
+                                                    editable-text-basic="" ng-model="section.title"
+                                                    placeholder="Contact">Contact</h2>
+        <p class="ng-pristine ng-untouched ng-valid" editable-text-basic="" ng-model="section.text"
+           placeholder="Get in touch with me if you would like to do business together, share an idea or just say hello.">
+          Get in touch with me if you would like to do business together, share an idea or just
+          say hello.</p></div>
+      <div class="info">
+        <div class="location"><h3>Iran, Tehran</h3></div>
+        <div class="phone"><h3>+98 919 503 8545</h3></div>
+        <div class="email"><h3>info@omidfarhang.com</h3></div>
+      </div>
+      <div class="social-networks-wrapper">
+        <div class="social-networks"><a class="ng-pristine ng-untouched ng-valid twitter"
+                                        editable-social-network=""
+                                        href="https://twitter.com/omidfarhangfa"
+                                        ng-model="socialNetwork"
+                                        social-networks="editableSite.site.social_networks"
+                                        style='background-image: url("img/social-networks/twitter-b.png");'
+                                        target="_blank"></a><a
+                class="ng-pristine ng-untouched ng-valid googleplus" editable-social-network=""
+                href="https://google.com/+omidfarhangcom" ng-model="socialNetwork"
+                social-networks="editableSite.site.social_networks"
+                style='background-image: url("img/social-networks/googleplus-b.png");'
+                target="_blank"></a><a class="ng-pristine ng-untouched ng-valid linkedin"
+                                       editable-social-network=""
+                                       href="https://www.linkedin.com/in/omidfarhang"
+                                       ng-model="socialNetwork"
+                                       social-networks="editableSite.site.social_networks"
+                                       style='background-image: url("img/social-networks/linkedin-b.png");'
+                                       target="_blank"></a><a
+                class="ng-pristine ng-untouched ng-valid facebook" editable-social-network=""
+                href="https://www.facebook.com/omidfarhang" ng-model="socialNetwork"
+                social-networks="editableSite.site.social_networks"
+                style='background-image: url("img/social-networks/facebook-b.png");'
+                target="_blank"></a><a class="ng-pristine ng-untouched ng-valid youtube"
+                                       editable-social-network=""
+                                       href="http://youtube.com/boelectronic"
+                                       ng-model="socialNetwork"
+                                       social-networks="editableSite.site.social_networks"
+                                       style='background-image: url("img/social-networks/youtube-b.png");'
+                                       target="_blank"></a><a
+                class="ng-pristine ng-untouched ng-valid github" editable-social-network=""
+                href="https://github.com/omidfarhang" ng-model="socialNetwork"
+                social-networks="editableSite.site.social_networks"
+                style='background-image: url("img/social-networks/github-b.png");'
+                target="_blank"></a><a class="ng-pristine ng-untouched ng-valid behance"
+                                       editable-social-network=""
+                                       href="https://www.behance.net/omidfarhang"
+                                       ng-model="socialNetwork"
+                                       social-networks="editableSite.site.social_networks"
+                                       style='background-image: url("img/social-networks/behance-b.png");'
+                                       target="_blank"></a><a
+                class="ng-pristine ng-untouched ng-valid instagram" editable-social-network=""
+                href="http://instagram.com/omidfarhang" ng-model="socialNetwork"
+                social-networks="editableSite.site.social_networks"
+                style='background-image: url("img/social-networks/instagram-b.png");'
+                target="_blank"></a><a class="ng-pristine ng-untouched ng-valid tumblr"
+                                       editable-social-network=""
+                                       href="http://omidfarhang.tumblr.com/"
+                                       ng-model="socialNetwork"
+                                       social-networks="editableSite.site.social_networks"
+                                       style='background-image: url("img/social-networks/tumblr-b.png");'
+                                       target="_blank"></a><a
+                class="ng-pristine ng-untouched ng-valid vimeo" editable-social-network=""
+                href="http://vimeo.com/omidfarhang" ng-model="socialNetwork"
+                social-networks="editableSite.site.social_networks"
+                style='background-image: url("img/social-networks/vimeo-b.png");'
+                target="_blank"></a><a class="ng-pristine ng-untouched ng-valid flickr"
+                                       editable-social-network=""
+                                       href="http://flickr.com/omidfarhang" ng-model="socialNetwork"
+                                       social-networks="editableSite.site.social_networks"
+                                       style='background-image: url("img/social-networks/flickr-b.png");'
+                                       target="_blank"></a><a
+                class="ng-pristine ng-untouched ng-valid dribbble" editable-social-network=""
+                href="http://dribbble.com/omidfarhang" ng-model="socialNetwork"
+                social-networks="editableSite.site.social_networks"
+                style='background-image: url("img/social-networks/dribbble-b.png");'
+                target="_blank"></a></div>
+      </div>
+    </div>
+  </div>
+  <div class="main-wrapper clearfix">
+    <div class="main-aligner">
+      <div class="main-content content">
+        <div class="form-wrapper clearfix" editable-contact-section="" is-pro="editableSite.isPro" section="section">
+          <div class="clearfix message-me">
+            <form id="contact-form">
+              <input id="contact-fullname" autocomplete="off" name="email" placeholder="Email" type="text"/>
+              <input id="contact-name" name="name" placeholder="Your name" required="" type="text"/>
+              <input id="contact-email" name="from" placeholder="Your email address" required="" type="email"/>
+              <textarea id="contact-message" name="message" placeholder="Message" required=""></textarea>
+              <div id="contact-success" class="success">
+                <img alt="Success" src="/shared/img/success.png"/>
+                Thank you, your message has been successfully sent!
+                <img alt="Close" class="close" src="/shared/img/close.png"/>
+              </div>
+              <div id="contact-error" class="error">
+                <img alt="Error" src="/shared/img/error.png"/>
+                Error sending message, please try again!
+                <img alt="Close" class="close" src="/shared/img/close.png"/>
+              </div>
+              <input type="submit" value="Send"/>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

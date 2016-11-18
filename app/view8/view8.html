@@ -1,5 +1,25 @@
-<p>This is the partial for view 8.</p>
-<p>
-  Showing of 'interpolate' filter:
-  {{ 'Current version is v%VERSION%.' | interpolate }}
-</p>
+<div class="tint-overlay" style="opacity: 0.7;"></div>
+<div class="wrapper clearfix">
+  <div class="description-wrapper clearfix">
+    <div class="content description clearfix">
+      <h2 class="ng-pristine ng-untouched ng-valid" editable-text-basic="" ng-model="section.title" placeholder="Contact">
+        Resume
+      </h2>
+      <p class="ng-pristine ng-untouched ng-valid" editable-text-basic="" ng-model="section.text" placeholder="Download my resume in PDF format. The PDF version of my resume may not be updated as often as update my resume here.">
+        Download my resume in PDF format. The PDF version of my resume may not be updated as often as update my resume here.
+      </p>
+    </div>
+  </div>
+  <div class="main-wrapper clearfix">
+    <div class="main-aligner">
+      <div class="main-content content">
+        <div class="form-wrapper clearfix" editable-contact-section="" is-pro="editableSite.isPro" section="section">
+          <div class="clearfix description">
+            <p><a href="http://go.omidfarhang.com/resume" target="_blank">Download</a></p>
+            <p>PDF - 153KB</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

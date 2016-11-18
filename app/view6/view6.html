@@ -1,5 +1,168 @@
-<p>This is the partial for view 6.</p>
-<p>
-  Showing of 'interpolate' filter:
-  {{ 'Current version is v%VERSION%.' | interpolate }}
-</p>
+<div class="tint-overlay" style="opacity: 0.3;"></div>
+<div class="wrapper clearfix">
+  <div class="description-wrapper clearfix">
+    <div class="content description clearfix"><h2 class="ng-pristine ng-untouched ng-valid"
+                                                  editable-text-basic="" ng-model="section.title"
+                                                  placeholder="Recommendations">Recommendations</h2>
+      <p class="ng-pristine ng-untouched ng-valid" editable-text-basic="" ng-model="section.text"
+         placeholder="Hear what some of my clients and colleagues have to say about me after working together on various projects throughout my career.">
+        Hear what some of my clients and colleagues have to say about me after working together on
+        various projects throughout my career.</p></div>
+  </div>
+  <div class="main-wrapper clearfix">
+    <div class="main-aligner">
+      <div class="main-content">
+        <slider class="slider list content multiple-listings" data-max-items="1">
+          <slider-content>
+            <slider-content-wrapper>
+              <slider-item
+                      class="listing-wrapper ng-pristine ng-untouched ng-valid ng-isolate-scope"
+                      editable-list-item="" ng-model="item" section="section">
+                <div class="listing-wrapper clearfix">
+                  <div class="listing clearfix">
+                    <div class="text-wrapper">
+                      <div class="text"><p
+                              class="quote ng-pristine ng-untouched ng-valid"
+                              editable-text="" ng-model="item.text"
+                              placeholder="“Paste the quote here and provide social proof to your audience. Change the icon with the picture of whoever you're quoting to make it looks more legit.”">
+                        I've known Omid for several years via Internet since we are
+                        both members of the Avast Support Forum. Omid has always
+                        been willing and able to lend a hand in solving problems for
+                        those that visited the support forum. He's done an excellent
+                        job when doing beta testing and has spent countless hours
+                        doing this tedious job. He would be an asset at what ever
+                        job he finally decides to except.</p>
+                        <h3 class="name ng-pristine ng-untouched ng-valid"
+                            editable-text="" ng-model="item.author.formattedName"
+                            placeholder="Name">Bob Gostischa</h3>
+                        <h3 class="tagline small ng-pristine ng-untouched ng-valid"
+                            editable-text="" ng-model="item.author.headline"
+                            placeholder="Description or tagline">was with another
+                          company when working with Omid at AVAST Software</h3>
+                      </div>
+                    </div>
+                    <div class="image-wrapper">
+                      <div class="image">
+                        <editable-image class="ng-pristine ng-untouched ng-valid"
+                                        ng-model="item.author.pictureUrl"
+                                        placeholder="img/testimonial.png">
+                          <img src="img/kYtMDnrZXzSD0iwsjc06_blob.jpg"/>
+                        </editable-image>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </slider-item>
+              <slider-item
+                      class="listing-wrapper ng-pristine ng-untouched ng-valid ng-isolate-scope"
+                      editable-list-item="" ng-model="item" section="section">
+                <div class="listing-wrapper clearfix">
+                  <div class="listing clearfix">
+                    <div class="text-wrapper">
+                      <div class="text"><p
+                              class="quote ng-pristine ng-untouched ng-valid"
+                              editable-text="" ng-model="item.text"
+                              placeholder="“Paste the quote here and provide social proof to your audience. Change the icon with the picture of whoever you're quoting to make it looks more legit.”">
+                        Omid and I along with many others did beta testing of
+                        various versions of avast! anti virus software.</p>
+                        <h3 class="name ng-pristine ng-untouched ng-valid"
+                            editable-text="" ng-model="item.author.formattedName"
+                            placeholder="Name">Bob Gostischa</h3>
+                        <h3 class="tagline small ng-pristine ng-untouched ng-valid"
+                            editable-text="" ng-model="item.author.headline"
+                            placeholder="Description or tagline">worked directly
+                          with Omid at Avira GmbH</h3></div>
+                    </div>
+                    <div class="image-wrapper">
+                      <div class="image">
+                        <editable-image class="ng-pristine ng-untouched ng-valid"
+                                        ng-model="item.author.pictureUrl"
+                                        placeholder="img/testimonial.png">
+                          <img src="img/SSljCe40v9cFI7wQvzIS_blob.jpg"/>
+                        </editable-image>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </slider-item>
+              <slider-item
+                      class="listing-wrapper ng-pristine ng-untouched ng-valid ng-isolate-scope"
+                      editable-list-item="" ng-model="item" section="section">
+                <div class="listing-wrapper clearfix">
+                  <div class="listing clearfix">
+                    <div class="text-wrapper">
+                      <div class="text"><p
+                              class="quote ng-pristine ng-untouched ng-valid"
+                              editable-text="" ng-model="item.text"
+                              placeholder="“Paste the quote here and provide social proof to your audience. Change the icon with the picture of whoever you're quoting to make it looks more legit.”">
+                        I have received numerous pieces of information from Omid
+                        that were helpful, timely, and thorough. As an owner of an
+                        internet-based business, this has helped me.</p>
+                        <h3 class="name ng-pristine ng-untouched ng-valid"
+                            editable-text="" ng-model="item.author.formattedName"
+                            placeholder="Name">Preston Tullos</h3>
+                        <h3 class="tagline small ng-pristine ng-untouched ng-valid"
+                            editable-text="" ng-model="item.author.headline"
+                            placeholder="Description or tagline">was with another
+                          company when working with Omid at Avira GmbH</h3></div>
+                    </div>
+                    <div class="image-wrapper">
+                      <div class="image">
+                        <editable-image class="ng-pristine ng-untouched ng-valid"
+                                        ng-model="item.author.pictureUrl"
+                                        placeholder="img/testimonial.png">
+                          <img src="img/z6YdBOfc56qfP8DHqlkb_blob.jpg"/>
+                        </editable-image>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </slider-item>
+              <slider-item
+                      class="listing-wrapper ng-pristine ng-untouched ng-valid ng-isolate-scope"
+                      editable-list-item="" ng-model="item" section="section">
+                <div class="listing-wrapper clearfix">
+                  <div class="listing clearfix">
+                    <div class="text-wrapper">
+                      <div class="text"><p
+                              class="quote ng-pristine ng-untouched ng-valid"
+                              editable-text="" ng-model="item.text"
+                              placeholder="“Paste the quote here and provide social proof to your audience. Change the icon with the picture of whoever you're quoting to make it looks more legit.”">
+                        Omid is a true professional to everyone he comes in contact
+                        with. He has helped me with computer needs several times. I
+                        know he has helped many, many others with there questions,
+                        including sending links and instructions how to use them. He
+                        is also great with people, and very much loved. Joy
+                        Reardon</p>
+                        <h3 class="name ng-pristine ng-untouched ng-valid"
+                            editable-text="" ng-model="item.author.formattedName"
+                            placeholder="Name">Joy ..</h3>
+                        <h3 class="tagline small ng-pristine ng-untouched ng-valid"
+                            editable-text="" ng-model="item.author.headline"
+                            placeholder="Description or tagline">was with another
+                          company when working with Omid at Avira GmbH</h3></div>
+                    </div>
+                    <div class="image-wrapper">
+                      <div class="image">
+                        <editable-image class="ng-pristine ng-untouched ng-valid"
+                                        ng-model="item.author.pictureUrl"
+                                        placeholder="img/testimonial.png">
+                          <img class="placeholder"
+                               src="img/testimonial.png"/>
+                        </editable-image>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </slider-item>
+            </slider-content-wrapper>
+          </slider-content>
+          <div slider-buttons="">
+            <button class="slick-prev" slider-prev="">Previous</button>
+            <button class="slick-next" slider-next="">Next</button>
+          </div>
+        </slider>
+      </div>
+    </div>
+  </div>
+</div>
